@@ -1,0 +1,446 @@
+body {
+    background-color: #FFFFF0;
+    font-family: Garamond, Courier, Georgia, Times, 'Times New Roman', serif;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-bottom: 3%;
+    color: #F28C28;
+}
+
+@media screen and (min-width: 1200px) {
+    .navbar {
+        padding-left: 25%;
+        padding-right: 25%;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .navbar {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .navbar {
+        padding-left: 0%;
+        padding-right: 0%;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .navbar {
+        margin-bottom: 5%;
+    }
+}
+
+.navbarLinks {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+@media screen and (max-width: 700px) {
+    .navbarLinks {
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+}
+
+@media screen and (max-width: 355px) {
+    .navbarLinks {
+        padding-left: 1%;
+        padding-right: 1%;
+        font-size: 3.5vw;
+    }
+}
+
+a {
+    color: #F28C28;
+    font-weight: bold;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a.active {
+    color: rgb(92, 151, 171);
+}
+
+.aboutmeSection {
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width: 700px) {
+    .aboutmeSection {
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+}
+
+.aboutmeContainer {
+    position: relative;
+    text-align: center;
+}
+
+@media screen and (min-width: 1200px) {
+    .aboutmeContainer {
+        max-width: 75%;
+    }
+}
+
+.backgroundImage {
+    max-width: 98%;
+    height: auto;
+    opacity: .65;
+    max-height: 97%;
+    margin-block-start: 1.5%;
+}
+
+@media screen and (min-width: 1000px) {
+    .backgroundImage {
+        width: 100%;
+        height: 80%;
+        opacity: .65;
+        max-height: 97%;
+        margin-block-start: 1.5%;
+    }
+}
+
+.aboutmeP {
+    font-size: 1.75vw;
+    margin-block: 0;
+    position: absolute;
+    top: 20%;
+    left: 5%;
+    right: 5%;
+    transform: translate(0%, -50%);
+    padding: 5%;
+
+}
+
+@media screen and (min-width: 1000px) {
+    .aboutmeP {
+        font-size: 1.5vw;
+        margin-block: 0;
+        position: absolute;
+        top: 17%;
+        left: 5%;
+        right: 5%;
+        transform: translate(0%, -50%);
+        padding: 3%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .aboutmeP {
+        font-size: 2vw;
+        top: 20%;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .aboutmeP {
+        font-size: 2.5vw;
+        top: 25%;
+        left: 1%;
+        right: 1%;
+    }
+}
+
+.aboutmeImage {
+    max-width: 48%;
+    height: auto;
+    object-fit: contain;
+    margin-block: 0;
+    position: absolute;
+    top: 65%;
+    left: 25%;
+    transform: translate(0%, -50%);
+    border: solid .25em #FFFFF0;
+}
+
+@media screen and (min-width: 1000px) {
+   .aboutmeImage {
+        max-width: 48%;
+        height: auto;
+        object-fit: contain;
+        margin-block: 0;
+        position: absolute;
+        top: 55%;
+        left: 25%;
+        transform: translate(0%, -50%);
+        border: solid 0.25em #FFFFF0;
+   } 
+}
+
+@media screen and (max-width: 700px) {
+    .aboutmeImage {
+        top: 67%;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .aboutmeImage {
+        top: 71%;
+    }
+}
+
+.portfolio {
+    display: flex;
+    flex-direction: column;
+}
+
+.portfolioGrid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.portfolioDiv {
+    margin: 1%;
+    padding: 3%;
+    background-color: rgb(237, 246, 249);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    color: #F28C28;
+}
+
+.portfolioDiv h2 {
+    margin-block-start: 0;
+}
+
+@media screen and (max-width: 600px) {
+    .portfolioDiv h2 {
+        font-size: 1em;
+    }
+}
+
+@media screen and (max-width: 355px) {
+    .portfolioDiv h2 {
+        font-size: .75em;
+    }
+}
+
+.portfolio a {
+    display: flex;
+}
+
+.portfolioCards {
+    max-width: 75%;
+    height: auto;
+    align-self: center;
+}
+
+.portfolioLinks {
+    display: flex;
+    justify-content: space-between;
+    padding: 5% 5% 0 5%;
+}
+
+@media screen and (max-width: 600px) {
+    .portfolioLinks {
+        font-size: .75em;
+    }
+}
+
+@media screen and (max-width: 355px) {
+    .portfolioLinks {
+        font-size: .5em;
+    }
+}
+
+.resumeSection {
+    display: flex;
+    flex-direction: column;
+    padding: 3%;
+}
+
+.resumeDiv {
+    align-self: center;
+    color: #353935;
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (min-width: 1201px) {
+    .resumeH {
+        font-size: 1.5vw;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .resumeH {
+        font-size: 2vw;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .resumeH {
+        font-size: 3vw;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .resumeH {
+        font-size: 3.5vw;
+    }
+}
+
+.Button {
+    background-color: rgb(237, 246, 249);
+    border: solid rgb(92, 151, 171);
+}
+
+.avatarImage {
+    max-width: 25%;
+    height: auto;
+    align-self: center;
+    padding-top: 2%;
+}
+
+@media screen and (max-width: 900px) {
+    .avatarImage {
+        max-width: 40%;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .avatarImage {
+        max-width: 50%;
+        height: auto;
+    }
+}
+
+.contactForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    height: 50vw;
+    justify-content: center;
+}
+
+#contactBackImage {
+    background-image: url('../assets/images/contactBackImage.jpg');
+    opacity: .7;
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    background-position: center;
+    height: 50vw;
+}
+
+@media screen and (min-width: 1200px) {
+    #contactBackImage {
+        height: 35vw;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    #contactBackImage {
+        height: 50vw;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    #contactBackImage {
+        height: 65vw;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    #contactBackImage {
+        height: 80vw;
+    }
+}
+
+.contactHeader {
+    margin-bottom: 1%;
+    color: black;
+}
+
+@media screen and (max-width: 700px) {
+    .contactHeader {
+        margin-block-start: 0;
+        margin-bottom: 0;
+        margin-top: 1%;
+    }
+}
+
+.formcarry-block {
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.formcarry-block input {
+    background-color: rgb(237, 246, 249);
+    border: solid medium rgb(92, 151, 171);
+    margin-top: 2%;
+    text-align: center;
+}
+
+.formcarry-block textarea {
+    background-color: rgb(237, 246, 249);
+    border: solid medium rgb(92, 151, 171);
+    width: 100%;
+    margin-top: 2%;
+    text-align: center;
+}
+
+.formcarry-block label {
+    color: white;
+    font-weight: bold;
+}
+
+.footer {
+    display: flex;
+    list-style: none;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 3%;
+    justify-content: space-between;
+}
+
+@media screen and (min-width: 1200px) {
+    .footer {
+        padding-left: 25%;
+        padding-right: 25%;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .footer {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .footer {
+        padding-left: 0%;
+        padding-right: 0%;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .footer {
+        margin-top: 5%;
+    }
+}
