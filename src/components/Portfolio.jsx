@@ -1,46 +1,46 @@
-import culinaryimage from '../assets/images/';
-import weatherimage from '../assets/images/';
-import quizimage from '../assets/images/';
-import moviemiximage from '../assets/images/';
-import portfolioimage from '../assets/images/';
-import skillmagnetimage from '../assets/images/';
+import culinaryimage from '../assets/images/horiseon.jpg';
+import weatherimage from '../assets/images/zodiac.jpg';
+import quizimage from '../assets/images/quizwave.jpg';
+import moviemiximage from '../assets/images/passgen.png';
+import portfolioimage from '../assets/images/notetaker.jpg';
+import skillmagnetimage from '../assets/images/texteditor.jpg';
 
 const projects = [
     {
-        title: "Culinary Connect",
+        title: "Code Factor",
         image: culinaryimage,
-        github: "https://github.com/quar-tech/mvc-recipe-sharing",
-        site: "https://mvc-culinary-connect-e00ad0e3e10d.herokuapp.com/"
+        github: "https://github.com/latacui2050/code-factor",
+        site: "https://latacui2050.github.io/code-factor/"
     },
     {
-        title: "SkillMagnet",
+        title: "Moira",
         image: skillmagnetimage,
-        github: "",
-        site: "https://full-stack-service-app.onrender.com/"
+        github: "https://github.com/JackW2023/Moira",
+        site: "https://jackw2023.github.io/Moira/"
     },
     {
-        title: "Timed Quiz",
+        title: "Quizwave",
         image: quizimage,
-        github: "",
-        site: ""
+        github: "https://github.com/JackW2023/FlashCard-APP",
+        site: "https://calm-island-50179-67f2dfd210f1.herokuapp.com/"
     },
     {
-        title: "Movie Mix & Sip",
+        title: "Password Generator",
         image: moviemiximage,
-        github: "",
-        site: "https://ucb-allstars-project-1.github.io/movie-cocktail-combo/"
+        github: "https://github.com/latacui2050/password-generator-homework/tree/gh-pages",
+        site: "https://latacui2050.github.io/password-generator-homework/"
     },
     {
-        title: "My First Portfolio",
+        title: "Note Taker",
         image: portfolioimage,
-        github: "",
-        site: ""
+        github: "https://github.com/latacui2050/note-taker",
+        site: "https://exs-note-taker-1e8b2846d5cf.herokuapp.com/"
     },
     {
-        title: "Weather Forecast",
+        title: "Text Editor",
         image: weatherimage,
-        github: "",
-        site: ""
+        github: "https://github.com/latacui2050/text-editor",
+        site: "https://pwa-text-editor-dhr3.onrender.com/"
     }
 ]
 

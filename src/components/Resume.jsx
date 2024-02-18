@@ -1,10 +1,10 @@
 export default function Resume() {
 
     const onButtonClick = () => {
-        const pdfUrl = "";
+        const pdfUrl = "https://docs.google.com/document/d/1XcWj6uXS1KWUvlTymWXYHEC6JJoTi4oo/edit?usp=sharing&ouid=111085412982604816744&rtpof=true&sd=true";
         const link = document.createElement("a");
         link.href = pdfUrl;
-        link.download = ""; // specify the filename
+        link.download = "wenmocuiresume"; // specify the filename
         document.body.appendChild(link);
         link.click();
         document.body.removeChild(link);
