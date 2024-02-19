@@ -1,5 +1,5 @@
 body {
-    background-color: #FFFFF0;
+    background-color: plum;
     font-family: Garamond, Courier, Georgia, Times, 'Times New Roman', serif;
     padding-left: 10%;
     padding-right: 10%;
@@ -11,7 +11,7 @@ body {
     padding-left: 15%;
     padding-right: 15%;
     padding-bottom: 3%;
-    color: #F28C28;
+    color: darkmagenta;
 }
 
 @media screen and (min-width: 1200px) {
@@ -65,7 +65,7 @@ body {
 }
 
 a {
-    color: #F28C28;
+    color: darkmagenta;
     font-weight: bold;
 }
 
@@ -168,7 +168,6 @@ a.active {
     top: 65%;
     left: 25%;
     transform: translate(0%, -50%);
-    border: solid .25em #FFFFF0;
 }
 
 @media screen and (min-width: 1000px) {
@@ -334,7 +333,7 @@ a.active {
 }
 
 #contactBackImage {
-    background-image: url('../assets/images/contactBackImage.jpg');
+    background-image: url('../assets/images/footer.png');
     opacity: .7;
     width: 100%;
     height: auto;
