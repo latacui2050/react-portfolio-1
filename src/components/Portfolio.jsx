@@ -14,7 +14,7 @@ const projects = [
     },
     {
         title: "Moira",
-        image: skillmagnetimage,
+        image: weatherimage,
         github: "https://github.com/JackW2023/Moira",
         site: "https://jackw2023.github.io/Moira/"
     },
@@ -38,7 +38,7 @@ const projects = [
     },
     {
         title: "Text Editor",
-        image: weatherimage,
+        image: skillmagnetimage,
         github: "https://github.com/latacui2050/text-editor",
         site: "https://pwa-text-editor-dhr3.onrender.com/"
     }

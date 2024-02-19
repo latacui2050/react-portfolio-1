@@ -103,7 +103,7 @@ a.active {
 .backgroundImage {
     max-width: 98%;
     height: auto;
-    opacity: .1;
+    opacity: .75;
     max-height: 97%;
     margin-block-start: 1.5%;
 }
