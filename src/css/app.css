@@ -103,7 +103,7 @@ a.active {
 .backgroundImage {
     max-width: 98%;
     height: auto;
-    opacity: .65;
+    opacity: .1;
     max-height: 97%;
     margin-block-start: 1.5%;
 }
@@ -209,11 +209,11 @@ a.active {
 .portfolioDiv {
     margin: 1%;
     padding: 3%;
-    background-color: rgb(237, 246, 249);
+    background-color: violet;
     text-align: center;
     display: flex;
     flex-direction: column;
-    color: #F28C28;
+    color: darkmagenta;
 }
 
 .portfolioDiv h2 {
@@ -298,8 +298,8 @@ a.active {
 }
 
 .Button {
-    background-color: rgb(237, 246, 249);
-    border: solid rgb(92, 151, 171);
+    background-color: plum;
+    border: solid darkmagenta;
 }
 
 .avatarImage {
@@ -334,7 +334,7 @@ a.active {
 
 #contactBackImage {
     background-image: url('../assets/images/footer.png');
-    opacity: .7;
+    opacity: .1;
     width: 100%;
     height: auto;
     background-size: cover;
@@ -387,22 +387,22 @@ a.active {
 }
 
 .formcarry-block input {
-    background-color: rgb(237, 246, 249);
-    border: solid medium rgb(92, 151, 171);
+    background-color: plum;
+    border: solid medium darkmagenta;
     margin-top: 2%;
     text-align: center;
 }
 
 .formcarry-block textarea {
-    background-color: rgb(237, 246, 249);
-    border: solid medium rgb(92, 151, 171);
+    background-color: plum;
+    border: solid medium darkmagenta;
     width: 100%;
     margin-top: 2%;
     text-align: center;
 }
 
 .formcarry-block label {
-    color: white;
+    color: black;
     font-weight: bold;
 }
 
